@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="420" viewBox="0 0 1040 420" role="img" aria-labelledby="title description">
+  <title id="title">SimsOnline process architecture</title>
+  <desc id="description">Player game and client controller communicate through a local bridge. The client controller exchanges TCP session messages with the dedicated server. The server communicates through a host mod and local bridge with the authoritative game.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#435b7a"/>
+    </marker>
+    <marker id="arrow-light" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#74849a"/>
+    </marker>
+    <style>
+      .box { fill: #f4f7fb; stroke: #536b8a; stroke-width: 2; rx: 12; }
+      .controller { fill: #e7f2ff; stroke: #3168a8; }
+      .game { fill: #fff3dc; stroke: #a97924; }
+      .title { font: 600 18px system-ui, sans-serif; fill: #162536; text-anchor: middle; }
+      .label { font: 14px system-ui, sans-serif; fill: #31465f; text-anchor: middle; }
+      .lane { font: 700 15px system-ui, sans-serif; fill: #52657b; }
+      .edge { stroke: #435b7a; stroke-width: 2.5; fill: none; marker-end: url(#arrow); }
+      .optional { stroke: #74849a; stroke-width: 2; stroke-dasharray: 7 6; fill: none; marker-end: url(#arrow-light); }
+    </style>
+  </defs>
+  <text class="lane" x="30" y="35">PLAYER MACHINE</text>
+  <text class="lane" x="700" y="35">HOST MACHINE</text>
+  <rect class="box game" x="25" y="95" width="190" height="105"/>
+  <text class="title" x="120" y="135">Player game</text>
+  <text class="label" x="120" y="161">The Sims 3</text>
+  <rect class="box" x="265" y="95" width="190" height="105"/>
+  <text class="title" x="360" y="135">Client mod</text>
+  <text class="label" x="360" y="161">In-game integration</text>
+  <rect class="box controller" x="505" y="95" width="195" height="105"/>
+  <text class="title" x="602" y="135">Client controller</text>
+  <text class="label" x="602" y="161">SimsOnline.Client</text>
+  <rect class="box controller" x="735" y="95" width="195" height="105"/>
+  <text class="title" x="832" y="135">Dedicated server</text>
+  <text class="label" x="832" y="161">Session and authority</text>
+  <rect class="box" x="735" y="265" width="195" height="105"/>
+  <text class="title" x="832" y="305">Host mod</text>
+  <text class="label" x="832" y="331">In-game integration</text>
+  <rect class="box game" x="505" y="265" width="195" height="105"/>
+  <text class="title" x="602" y="305">Host game</text>
+  <text class="label" x="602" y="331">Shared simulation</text>
+  <path class="edge" d="M215 145 H255"/>
+  <path class="edge" d="M265 170 H225"/>
+  <path class="edge" d="M455 145 H495"/>
+  <path class="edge" d="M505 170 H465"/>
+  <path class="edge" d="M700 145 H725"/>
+  <path class="edge" d="M735 170 H710"/>
+  <path class="edge" d="M832 200 V255"/>
+  <path class="edge" d="M735 320 H710"/>
+  <path class="edge" d="M700 345 H725"/>
+  <text class="label" x="480" y="115">local bridge</text>
+  <text class="label" x="713" y="118">TCP session protocol</text>
+  <text class="label" x="710" y="292">local bridge</text>
+  <path class="optional" d="M602 205 V250"/>
+  <text class="label" x="602" y="235">optional SimLink</text>
+</svg>

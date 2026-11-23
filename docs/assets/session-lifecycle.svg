@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="270" viewBox="0 0 1040 270" role="img" aria-labelledby="title description">
+  <title id="title">Client session lifecycle</title>
+  <desc id="description">A controller connects, optionally downloads the world before joining, joins and receives a baseline, exchanges commands and events, and reconnects by joining again and resynchronizing.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#435b7a"/>
+    </marker>
+    <style>
+      .box { fill: #e7f2ff; stroke: #3168a8; stroke-width: 2; rx: 12; }
+      .warm { fill: #fff3dc; stroke: #a97924; }
+      .title { font: 600 17px system-ui, sans-serif; fill: #162536; text-anchor: middle; }
+      .label { font: 13px system-ui, sans-serif; fill: #31465f; text-anchor: middle; }
+      .edge { stroke: #435b7a; stroke-width: 2.5; fill: none; marker-end: url(#arrow); }
+      .loop { stroke: #74849a; stroke-width: 2; stroke-dasharray: 7 6; fill: none; marker-end: url(#arrow); }
+    </style>
+  </defs>
+  <rect class="box" x="20" y="75" width="165" height="100"/>
+  <text class="title" x="102" y="112">Connect</text>
+  <text class="label" x="102" y="139">Open TCP session</text>
+  <rect class="box warm" x="225" y="75" width="180" height="100"/>
+  <text class="title" x="315" y="112">Bootstrap</text>
+  <text class="label" x="315" y="139">Optional world request</text>
+  <rect class="box" x="445" y="75" width="165" height="100"/>
+  <text class="title" x="527" y="112">Join</text>
+  <text class="label" x="527" y="139">Bind player to connection</text>
+  <rect class="box" x="650" y="75" width="170" height="100"/>
+  <text class="title" x="735" y="112">Baseline</text>
+  <text class="label" x="735" y="139">Snapshot, speed, time</text>
+  <rect class="box" x="860" y="75" width="160" height="100"/>
+  <text class="title" x="940" y="112">Active</text>
+  <text class="label" x="940" y="139">Commands and events</text>
+  <path class="edge" d="M185 125 H215"/>
+  <path class="edge" d="M405 125 H435"/>
+  <path class="edge" d="M610 125 H640"/>
+  <path class="edge" d="M820 125 H850"/>
+  <path class="loop" d="M940 185 C940 245 527 245 527 185"/>
+  <text class="label" x="735" y="235">Reconnect: join again and resynchronize</text>
+</svg>

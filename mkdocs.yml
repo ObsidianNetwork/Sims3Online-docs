@@ -1,0 +1,96 @@
+site_name: SimsOnline
+site_description: Developer documentation for the Sims 3 multiplayer project
+site_url: !ENV MKDOCS_SITE_URL
+repo_url: https://github.com/ObsidianNetwork/SimsOnline-docs
+repo_name: ObsidianNetwork/SimsOnline-docs
+edit_uri: edit/main/docs/
+docs_dir: docs
+strict: true
+
+theme:
+  name: material
+  logo: assets/logo-glyph-white.svg
+  favicon: assets/favicon.png
+  font: false
+  palette:
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.footer
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+
+extra_css:
+  - stylesheets/site.css
+
+nav:
+  - Home: index.md
+  - Start here:
+      - Quickstart: project/quickstart.md
+      - First live session: guides/first-live-session.md
+      - Runtime modes: project/runtime-modes.md
+      - Project overview: overview.md
+      - Architecture: architecture.md
+      - Components: components.md
+      - Subsystem reference: subsystems.md
+      - Current status: status.md
+      - Security: security.md
+  - Build and operate:
+      - Engineering guides: guides/index.md
+      - Development setup: development.md
+      - Testing: testing.md
+      - Dedicated server CLI: server-cli.md
+      - Troubleshooting: troubleshooting.md
+      - Contributing: contributing.md
+  - Architecture and runtime:
+      - Architecture deep dive: architecture-deep-dive/index.md
+      - Simulation reference: simulation-reference/index.md
+      - Client presentation: presentation/index.md
+      - Data and persistence: data-and-persistence/index.md
+  - Protocol and implementation:
+      - Protocol reference: protocol-reference/index.md
+      - Network protocol: protocol.md
+      - Bridge and data formats: bridge-and-formats.md
+      - Code reference: code-reference/index.md
+      - Repository reference: repo-reference/index.md
+      - Persistence and world time: persistence-and-time.md
+  - Research and experiments:
+      - Design records: design/index.md
+  - Project reference:
+      - Project guide: project/index.md
+      - Documentation coverage: project/documentation-coverage.md
+      - FAQ: faq.md
+      - Glossary: glossary.md
+      - Licensing and assets: project/licensing-and-assets.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables

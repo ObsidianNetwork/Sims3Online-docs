@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+<title id="title">SimsOnline icon</title>
+<desc id="desc">Two interlocked cyan and lime faceted prisms orbiting a shared synchronization point on a dark obsidian background.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#17152D"/>
+    <stop offset=".5" stop-color="#0A1830"/>
+    <stop offset="1" stop-color="#062128"/>
+  </linearGradient>
+  <radialGradient id="haloL" cx=".26" cy=".40" r=".62">
+    <stop offset="0" stop-color="#2CDCE4" stop-opacity=".19"/>
+    <stop offset=".65" stop-color="#2CDCE4" stop-opacity=".035"/>
+    <stop offset="1" stop-color="#2CDCE4" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="haloR" cx=".75" cy=".61" r=".62">
+    <stop offset="0" stop-color="#A1FA65" stop-opacity=".16"/>
+    <stop offset=".65" stop-color="#A1FA65" stop-opacity=".03"/>
+    <stop offset="1" stop-color="#A1FA65" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#A5FFF7"/>
+    <stop offset=".45" stop-color="#31DCE4"/>
+    <stop offset="1" stop-color="#0686C9"/>
+  </linearGradient>
+  <linearGradient id="lime" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#E9FF89"/>
+    <stop offset=".45" stop-color="#7BF16E"/>
+    <stop offset="1" stop-color="#15B589"/>
+  </linearGradient>
+  <linearGradient id="orbit" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#2ADCE3"/>
+    <stop offset=".5" stop-color="#56E8C2"/>
+    <stop offset="1" stop-color="#A8FA63"/>
+  </linearGradient>
+  <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+    <feDropShadow dx="0" dy="24" stdDeviation="30" flood-color="#000000" flood-opacity=".46"/>
+  </filter>
+  <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+    <feGaussianBlur stdDeviation="14" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<rect x="54" y="54" width="916" height="916" rx="220" fill="url(#bg)"/>
+<rect x="54" y="54" width="916" height="916" rx="220" fill="url(#haloL)"/>
+<rect x="54" y="54" width="916" height="916" rx="220" fill="url(#haloR)"/>
+<rect x="62" y="62" width="900" height="900" rx="212" fill="none" stroke="#FFFFFF" stroke-opacity=".13" stroke-width="16"/>
+
+<!-- One shared-world orbit with two player endpoints. -->
+<path d="M224 632 C234 368 444 201 667 236 C855 266 899 459 794 606 C674 773 423 818 267 700"
+      fill="none" stroke="#06131D" stroke-width="60" stroke-linecap="round"/>
+<path d="M224 632 C234 368 444 201 667 236 C855 266 899 459 794 606 C674 773 423 818 267 700"
+      fill="none" stroke="url(#orbit)" stroke-width="27" stroke-linecap="round"/>
+<g filter="url(#glow)">
+  <circle cx="224" cy="632" r="31" fill="#2ADCE3"/>
+  <circle cx="794" cy="606" r="31" fill="#A8FA63"/>
+</g>
+<circle cx="224" cy="632" r="12" fill="#F0FFFF"/>
+<circle cx="794" cy="606" r="12" fill="#F8FFE8"/>
+
+<!-- Two interlocked player prisms. -->
+<g filter="url(#shadow)">
+  <path fill="url(#cyan)" fill-rule="evenodd" d="M445 221 L278 512 L445 803 L590 512 Z M445 350 L350 512 L445 674 L518 512 Z"/>
+  <path fill="url(#lime)" fill-rule="evenodd" d="M579 221 L434 512 L579 803 L746 512 Z M579 350 L506 512 L579 674 L674 512 Z"/>
+
+  <path d="M445 221 L278 512 L350 512 L445 350 Z" fill="#FFFFFF" opacity=".15"/>
+  <path d="M445 803 L278 512 L350 512 L445 674 Z" fill="#006E9F" opacity=".24"/>
+  <path d="M579 221 L746 512 L674 512 L579 350 Z" fill="#FFFFFF" opacity=".12"/>
+  <path d="M579 803 L746 512 L674 512 L579 674 Z" fill="#08735B" opacity=".23"/>
+
+  <path d="M434 512 L506 512 L579 674 L543 746 Z" fill="url(#cyan)"/>
+  <path d="M590 512 L518 512 L445 350 L481 278 Z" fill="url(#lime)"/>
+
+  <path d="M445 221 L278 512" fill="none" stroke="#DFFFFB" stroke-opacity=".34" stroke-width="8" stroke-linecap="round"/>
+  <path d="M579 221 L746 512" fill="none" stroke="#F1FFC0" stroke-opacity=".28" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Shared authoritative state / synchronization point. -->
+  <path d="M512 443 L581 512 L512 581 L443 512 Z" fill="#F7FFFF" stroke="#FFFFFF" stroke-width="8"/>
+  <path d="M512 463 L561 512 L512 561 L463 512 Z" fill="url(#orbit)"/>
+  <circle cx="512" cy="512" r="14" fill="#FFFFFF"/>
+</g>
+<path d="M183 793 C341 905 684 920 841 778" fill="none" stroke="#FFFFFF" stroke-opacity=".04" stroke-width="20" stroke-linecap="round"/>
+</svg>
