@@ -2,7 +2,7 @@
 
 Public documentation for **SimsOnline**, an experimental multiplayer project for *The Sims 3*.
 
-This repository publishes the public documentation site built with MkDocs Material.
+This repository publishes the public documentation site at [https://obsidiannetwork.github.io/SimsOnline-docs/](https://obsidiannetwork.github.io/SimsOnline-docs/) using MkDocs Material.
 Documentation source changes are maintained in [`ObsidianNetwork/SimsOnline`](https://github.com/ObsidianNetwork/SimsOnline) and mirrored here for public hosting.
 
 ## Local preview
