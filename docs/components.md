@@ -46,6 +46,6 @@ outcomes. See [simulation and presentation](simulation.md).
 
 Game integration requires locally supplied API reference assemblies under `refs/sims3/`. The
 public repository excludes those files pending rights verification; see the
-[reference assembly policy](https://github.com/ObsidianNetwork/SimsOnline/blob/main/refs/sims3/README.md). The mod compile CI step reports as skipped
+[reference assembly policy](https://github.com/ObsidianNetwork/Sims3Online/blob/main/refs/sims3/README.md). The mod compile CI step reports as skipped
 when these local-only inputs are absent, so a green clean-checkout run does not validate the full
 legacy mod compile.

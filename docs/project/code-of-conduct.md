@@ -1,8 +1,8 @@
 # Code of conduct
 
-SimsOnline welcomes respectful, constructive participation in issues, reviews,
+Sims3Online welcomes respectful, constructive participation in issues, reviews,
 discussions, and contributions. This page is a concise guide; the
-[repository Code of Conduct](https://github.com/ObsidianNetwork/SimsOnline/blob/main/CODE_OF_CONDUCT.md)
+[repository Code of Conduct](https://github.com/ObsidianNetwork/Sims3Online/blob/main/CODE_OF_CONDUCT.md)
 is the governing policy for its pledge, standards, scope, enforcement, and attribution.
 
 ## Expected behavior
@@ -45,4 +45,4 @@ reporters.
 | Someone reports misconduct | Keep the report private and treat the reporter respectfully. |
 
 Related: [contribution workflow](contribution-workflow.md), [support and reporting](support-and-reporting-issues.md),
-[security](../security.md), and the [full Code of Conduct](https://github.com/ObsidianNetwork/SimsOnline/blob/main/CODE_OF_CONDUCT.md).
+[security](../security.md), and the [full Code of Conduct](https://github.com/ObsidianNetwork/Sims3Online/blob/main/CODE_OF_CONDUCT.md).

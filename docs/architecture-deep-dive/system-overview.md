@@ -1,6 +1,6 @@
 # System overview
 
-SimsOnline connects a player's local game to a shared session coordinated by
+Sims3Online connects a player's local game to a shared session coordinated by
 a controller and a server-side copy of the game. The architecture separates
 three concerns that are easy to conflate:
 

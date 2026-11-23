@@ -1,6 +1,6 @@
 # Wire formats and compatibility
 
-SimsOnline has more than one message format. Each format has a distinct peer, version boundary, and failure behavior; a payload valid in one channel is not a valid frame in another.
+Sims3Online has more than one message format. Each format has a distinct peer, version boundary, and failure behavior; a payload valid in one channel is not a valid frame in another.
 
 ## Channel map
 

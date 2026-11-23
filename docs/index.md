@@ -10,10 +10,16 @@ hide:
 
 <div class="docs-hero__copy" markdown="1">
 
-# SimsOnline docs
+# Sims3Online docs
 
 Build, run, and understand an experimental multiplayer project for **The Sims 3**. The host
 runs shared gameplay. Clients send player input, show the host's results, and can play local cosmetic idles.
+
+!!! note "Naming compatibility"
+    The project is branded **Sims3Online**. Solution, project, assembly, namespace, and
+    environment-variable identifiers (`SimsOnline.sln`, `SimsOnlineServerHostMod`,
+    `SimsOnline.Client`, `SimsOnline.Protocol`, `SIMSONLINE_*`) retain `SimsOnline*` for
+    compatibility.
 
 [Start with the Quickstart](project/quickstart.md){ .md-button .md-button--primary }
 [Choose a runtime](project/runtime-modes.md){ .md-button }

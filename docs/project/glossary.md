@@ -201,7 +201,7 @@ This glossary describes the public vocabulary, not every internal type or histor
 | **Documentation build** | MkDocs validation/rendering of the public site. |
 | **Issue report** | Public description of a bug or feature proposal; should be sanitized. |
 | **MIT License** | License in the repository root for material it covers; not a game-content license. |
-| **Non-endorsement notice** | Statement that SimsOnline is unofficial and not affiliated with EA/Maxis. |
+| **Non-endorsement notice** | Statement that Sims3Online is unofficial and not affiliated with EA/Maxis. |
 | **Public release** | Version/artifacts intentionally made available with stated support boundaries. |
 | **Reference assembly** | Compile-time API signature material; technical purpose does not itself settle redistribution rights. |
 | **Strict build** | Documentation build that treats warnings as errors. |

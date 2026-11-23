@@ -45,7 +45,7 @@ The project does not package engine assemblies for this workflow. Users supply t
 [Managed analysis tools](tool-reference-managed-analysis.md) · [Live probes](live-probes.md) · [Build from source](build-source.md)
 ## Why not a runtime patcher
 
-MonoPatcher is an external method-replacement project, not a dependency of the supported SimsOnline build, server, tester kit, or normal development workflow. This guide makes no installation recommendation. Runtime replacement sits below the managed mod/bridge boundary and can be coupled to an exact game build, runtime, architecture, and loader placement; a failure may be a native process crash rather than a controller-visible error.
+MonoPatcher is an external method-replacement project, not a dependency of the supported Sims3Online build, server, tester kit, or normal development workflow. This guide makes no installation recommendation. Runtime replacement sits below the managed mod/bridge boundary and can be coupled to an exact game build, runtime, architecture, and loader placement; a failure may be a native process crash rather than a controller-visible error.
 
 For observation, prefer checked-in source, `scripts/ts3src.py`, or the supported bridge tools. For a project-owned behavior change, use the maintained managed mod/controller path and its tests. A future evaluation would require a separately approved disposable installation, verified external provenance, version/architecture identity, demonstrated rollback, and a server/client test plan. Do not bundle third-party binaries, bypass integrity/access controls, or make a method patcher a contributor prerequisite.
 

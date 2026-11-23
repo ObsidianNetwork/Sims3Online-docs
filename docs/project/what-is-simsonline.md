@@ -1,6 +1,6 @@
-# What is SimsOnline?
+# What is Sims3Online?
 
-SimsOnline is an experimental multiplayer project that connects players to one shared
+Sims3Online is an experimental multiplayer project that connects players to one shared
 Sims 3 simulation. A server-side game process runs the simulation. Each player's
 client game forwards intent and displays selected authoritative results.
 
@@ -140,7 +140,7 @@ Related: [protocol](../protocol.md), [components](../components.md), [status](..
 | Build compiles | Source is syntactically/type-correct for that configuration |
 | Feature appears in menu | UI presents an option, not proof of successful execution |
 
-SimsOnline should be approached as experimental software. Keep tests controlled and backups available. Do not use valuable saves or sensitive networks as a first validation environment. Current status and limitations should inform whether a capability is suitable for a particular experiment.
+Sims3Online should be approached as experimental software. Keep tests controlled and backups available. Do not use valuable saves or sensitive networks as a first validation environment. Current status and limitations should inform whether a capability is suitable for a particular experiment.
 
 ## Where to go next
 

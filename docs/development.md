@@ -18,17 +18,19 @@ installation steps.
 
 The public checkout does not include Sims 3 reference assemblies. Building the in-game mod
 requires locally supplied assemblies or API-only stubs that you are legally permitted to use; the
-project does not grant redistribution rights. See the [reference assembly policy](https://github.com/ObsidianNetwork/SimsOnline/blob/main/refs/sims3/README.md).
+project does not grant redistribution rights. See the [reference assembly policy](https://github.com/ObsidianNetwork/Sims3Online/blob/main/refs/sims3/README.md).
 
 ## Clone and build
 
 ```sh
-git clone https://github.com/ObsidianNetwork/SimsOnline.git
-cd SimsOnline
+git clone https://github.com/ObsidianNetwork/Sims3Online.git
+cd Sims3Online
 dotnet build DedicatedServer.Tests/SimsOnline.DedicatedServer.Tests.csproj
 dotnet build SimsOnline.Client/SimsOnline.Client.csproj
 dotnet build SimsOnline.TestClient/SimsOnline.TestClient.csproj
 ```
+
+Note: The project is branded **Sims3Online**, while solution, project, assembly, and environment-variable identifiers (`SimsOnline.sln`, `SimsOnlineServerHostMod`, `SimsOnline.Client`, `SimsOnline.Protocol`, `SIMSONLINE_*`) retain `SimsOnline*` for compatibility.
 
 The test-project build also builds its referenced server project. The three commands are shown
 separately so a contributor can tell which boundary failed.

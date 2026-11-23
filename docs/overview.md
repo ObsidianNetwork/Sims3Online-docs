@@ -1,7 +1,13 @@
 # Project overview
 
-SimsOnline is an independent experimental multiplayer project for **The Sims 3**. It is not
+Sims3Online is an independent experimental multiplayer project for **The Sims 3**. It is not
 affiliated with Electronic Arts or Maxis and is unrelated to EA's 2002 game *The Sims Online*.
+
+!!! note "Naming compatibility"
+    The project is branded **Sims3Online**. Solution, project, assembly, namespace, and
+    environment-variable identifiers (`SimsOnline.sln`, `SimsOnlineServerHostMod`,
+    `SimsOnline.Client`, `SimsOnline.Protocol`, `SIMSONLINE_*`) retain `SimsOnline*` for
+    compatibility.
 
 ## Project goal
 

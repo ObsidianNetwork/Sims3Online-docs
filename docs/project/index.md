@@ -9,7 +9,7 @@ linked code and protocol references rather than treating this overview as an API
 
 | Reader | Start here |
 |---|---|
-| New to SimsOnline | [What is SimsOnline?](what-is-simsonline.md) → [quickstart](quickstart.md) → [architecture](../architecture.md) |
+| New to Sims3Online | [What is Sims3Online?](what-is-simsonline.md) → [quickstart](quickstart.md) → [architecture](../architecture.md) |
 | Contributor | [Contribution workflow](contribution-workflow.md) → [code conventions](code-conventions.md) → [testing](../testing.md) |
 | Documentation author | [Docs style guide](docs-style-guide.md) → [documentation coverage](documentation-coverage.md) |
 | Bug reporter | [Troubleshooting](troubleshooting-extended.md) → [support and reporting](support-and-reporting-issues.md) |
@@ -19,7 +19,7 @@ linked code and protocol references rather than treating this overview as an API
 
 | Topic | Page |
 |---|---|
-| Purpose and repository layout | [What is SimsOnline?](what-is-simsonline.md), [repository layout](repository-layout.md) |
+| Purpose and repository layout | [What is Sims3Online?](what-is-simsonline.md), [repository layout](repository-layout.md) |
 | Compatibility and evidence | [Compatibility matrix](compatibility-matrix.md), [known limitations](known-limitations.md), [project status](project-status-and-direction.md) |
 | Contribution and documentation | [Contribution workflow](contribution-workflow.md), [code conventions](code-conventions.md), [docs style](docs-style-guide.md), [coverage](documentation-coverage.md) |
 | Support and common questions | [Support](support-and-reporting-issues.md), [extended FAQ](faq-extended.md), [extended troubleshooting](troubleshooting-extended.md) |
@@ -28,7 +28,7 @@ linked code and protocol references rather than treating this overview as an API
 
 ## Claims and support
 
-SimsOnline is experimental software. Code presence, a passing unit test, a live
+Sims3Online is experimental software. Code presence, a passing unit test, a live
 scenario, and a published release are different evidence levels. A page may explain
 an implemented or experimental path without promising compatibility or support.
 Check [current status](../status.md) and [security](../security.md) before running

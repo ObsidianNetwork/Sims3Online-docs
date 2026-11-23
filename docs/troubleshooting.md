@@ -78,11 +78,11 @@ whole result:
 The public listener checks the joined connection's player identity before session policy is
 applied. `AuthoritativeSession` then enforces game-domain role and ownership rules. The
 listener and policy boundaries are implemented in
-[`ClientListenerServer.cs`](https://github.com/ObsidianNetwork/SimsOnline/blob/main/DedicatedServer/Network/ClientListenerServer.cs)
+[`ClientListenerServer.cs`](https://github.com/ObsidianNetwork/Sims3Online/blob/main/DedicatedServer/Network/ClientListenerServer.cs)
 and
-[`AuthoritativeSession.cs`](https://github.com/ObsidianNetwork/SimsOnline/blob/main/DedicatedServer/Authority/AuthoritativeSession.cs).
+[`AuthoritativeSession.cs`](https://github.com/ObsidianNetwork/Sims3Online/blob/main/DedicatedServer/Authority/AuthoritativeSession.cs).
 The server's resync decisions are centralized in
-[`ResyncPolicy.cs`](https://github.com/ObsidianNetwork/SimsOnline/blob/main/DedicatedServer/Authority/ResyncPolicy.cs);
+[`ResyncPolicy.cs`](https://github.com/ObsidianNetwork/Sims3Online/blob/main/DedicatedServer/Authority/ResyncPolicy.cs);
 the local bridge health checks are described in [bridge tools](guides/bridge-tools.md).
 
 ## Report a reproducible issue safely

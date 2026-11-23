@@ -2,7 +2,7 @@
 
 ## Is this ready for players?
 
-No. SimsOnline is experimental development software. Feature coverage and compatibility are
+No. Sims3Online is experimental development software. Feature coverage and compatibility are
 limited, and the network protocol is unauthenticated and unencrypted.
 
 ## Does this repository include The Sims 3?
@@ -36,5 +36,5 @@ strict build and retains its generated site as a downloadable artifact.
 
 Some integration builds require locally supplied game API reference assemblies and an installed
 game. The public repository includes neither the game nor the reference DLLs. Review
-[`refs/sims3/README.md`](https://github.com/ObsidianNetwork/SimsOnline/blob/main/refs/sims3/README.md) and the licensing caveat in
+[`refs/sims3/README.md`](https://github.com/ObsidianNetwork/Sims3Online/blob/main/refs/sims3/README.md) and the licensing caveat in
 [components](components.md) before distributing any game-related build inputs.

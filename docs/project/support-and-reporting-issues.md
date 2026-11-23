@@ -1,6 +1,6 @@
 # Support and reporting issues
 
-SimsOnline is an experimental community project rather than a supported commercial
+Sims3Online is an experimental community project rather than a supported commercial
 service. Reports are most useful when they distinguish a reproducible defect from
 setup trouble or unverified behavior.
 

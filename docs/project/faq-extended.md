@@ -2,7 +2,7 @@
 
 ## Project and architecture
 
-### What does SimsOnline do?
+### What does Sims3Online do?
 It experiments with multiplayer Sims 3 using one server-side game as shared simulator
 and client games as input/presentation endpoints.
 

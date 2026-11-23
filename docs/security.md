@@ -1,6 +1,6 @@
 # Security
 
-SimsOnline is experimental development software. Use it only on systems and networks you trust.
+Sims3Online is experimental development software. Use it only on systems and networks you trust.
 
 ## Network limitations
 
@@ -16,18 +16,18 @@ with data that must be protected from untrusted users.
 ## Game ownership and distribution
 
 Users must obtain and install The Sims 3 themselves. Do not distribute game executables,
-assemblies, saves, packages, decompiled game source, or other EA/Maxis content with SimsOnline.
+assemblies, saves, packages, decompiled game source, or other EA/Maxis content with Sims3Online.
 The repository's own source is licensed under the
-[MIT License](https://github.com/ObsidianNetwork/SimsOnline/blob/main/LICENSE).
+[MIT License](https://github.com/ObsidianNetwork/Sims3Online/blob/main/LICENSE).
 
 ## Reporting a vulnerability
 
 Please do not post security vulnerabilities in public issues or discussions. Report them privately through a
-[GitHub Security Advisory](https://github.com/ObsidianNetwork/SimsOnline/security/advisories/new)
+[GitHub Security Advisory](https://github.com/ObsidianNetwork/Sims3Online/security/advisories/new)
 or email [security@obsidiannetwork.au](mailto:security@obsidiannetwork.au), which is monitored.
 
 Include the impact and enough information to reproduce the issue safely. Do not include game
 files, saves, credentials, or personal data in a report.
 
-SimsOnline is an independent project and is not affiliated with, endorsed by, or sponsored by
+Sims3Online is an independent project and is not affiliated with, endorsed by, or sponsored by
 Electronic Arts or Maxis. The Sims and The Sims 3 are trademarks of Electronic Arts Inc.

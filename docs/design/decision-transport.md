@@ -64,10 +64,10 @@ do not by themselves prove that repeating a game operation is safe.
 The distinction follows the current implementations: the JSON listener passes decoded
 commands to `AuthoritativeSession` and returns a result keyed by `CommandId`; the Rust
 line-v1 `Connection` stores a bounded command-reply window. See
-[`ClientCommand.cs`](https://github.com/ObsidianNetwork/SimsOnline/blob/main/SimsOnline.Protocol/ClientCommand.cs),
-[`ClientListenerServer.cs`](https://github.com/ObsidianNetwork/SimsOnline/blob/main/DedicatedServer/Network/ClientListenerServer.cs),
-[`session.rs`](https://github.com/ObsidianNetwork/SimsOnline/blob/main/rust/simlink_headless_server/src/session.rs),
-and [`messages.rs`](https://github.com/ObsidianNetwork/SimsOnline/blob/main/rust/simlink_headless_server/src/messages.rs).
+[`ClientCommand.cs`](https://github.com/ObsidianNetwork/Sims3Online/blob/main/SimsOnline.Protocol/ClientCommand.cs),
+[`ClientListenerServer.cs`](https://github.com/ObsidianNetwork/Sims3Online/blob/main/DedicatedServer/Network/ClientListenerServer.cs),
+[`session.rs`](https://github.com/ObsidianNetwork/Sims3Online/blob/main/rust/simlink_headless_server/src/session.rs),
+and [`messages.rs`](https://github.com/ObsidianNetwork/Sims3Online/blob/main/rust/simlink_headless_server/src/messages.rs).
 
 ## Failure handling
 

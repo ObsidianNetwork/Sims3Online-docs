@@ -1,6 +1,6 @@
 ﻿# Client game runtime and mirror roles
 
-The “client VM” in this section means the client's own Sims 3 runtime/process, not a virtual machine implemented by SimsOnline. The player runs or attaches to a local game instance; the controller connects that instance to the server through its host bridge. There is no custom bytecode interpreter, full remote-desktop stream, or deterministic clone of the server simulation in this codebase.
+The “client VM” in this section means the client's own Sims 3 runtime/process, not a virtual machine implemented by Sims3Online. The player runs or attaches to a local game instance; the controller connects that instance to the server through its host bridge. There is no custom bytecode interpreter, full remote-desktop stream, or deterministic clone of the server simulation in this codebase.
 
 This distinction matters because the local game owns its own objects, object ids, simulator tasks, animations, inventories, UI and save files. The network protocol transports selected semantic state and intents; the bridge translates those into operations against the local game.
 

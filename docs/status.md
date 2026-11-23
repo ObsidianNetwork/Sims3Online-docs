@@ -1,6 +1,6 @@
 # Current status
 
-SimsOnline is experimental software under active development. It is not a finished or
+Sims3Online is experimental software under active development. It is not a finished or
 supported multiplayer release.
 
 The repository includes a server-authoritative session model, controller-to-game integration,

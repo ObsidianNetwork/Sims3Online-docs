@@ -5,9 +5,9 @@ advice and does not grant rights beyond the relevant license or permission.
 
 ## Project source and artwork
 
-The root [MIT License](https://github.com/ObsidianNetwork/SimsOnline/blob/main/LICENSE)
-covers project source and the SimsOnline artwork in `Assets/`. The
-[asset inventory](https://github.com/ObsidianNetwork/SimsOnline/blob/main/Assets/README.md)
+The root [MIT License](https://github.com/ObsidianNetwork/Sims3Online/blob/main/LICENSE)
+covers project source and the Sims3Online artwork in `Assets/`. The
+[asset inventory](https://github.com/ObsidianNetwork/Sims3Online/blob/main/Assets/README.md)
 records the artwork's provenance and intended use. Keep the license notice and the
 unofficial-project statement with redistributed project material. The artwork is original
 project branding; it does not use EA's exact plumbob, wordmark, or launcher art.
@@ -24,7 +24,7 @@ acquired game installation and any local inputs they are permitted to use.
 
 The public checkout intentionally excludes Sims 3 reference DLLs while redistribution
 rights remain unverified. The
-[reference-assembly README](https://github.com/ObsidianNetwork/SimsOnline/blob/main/refs/sims3/README.md)
+[reference-assembly README](https://github.com/ObsidianNetwork/Sims3Online/blob/main/refs/sims3/README.md)
 documents local build inputs; it is not permission to obtain or redistribute them. Keep
 those files out of commits, release archives, test artifacts, and issue attachments. This
 is the project's current distribution boundary, not a legal conclusion about the assemblies.

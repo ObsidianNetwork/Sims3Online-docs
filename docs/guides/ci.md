@@ -8,7 +8,7 @@ CI separates managed code, Python tooling, native platform gates, documentation,
 |---|---|---|
 | `build-and-test.yml` | Pull requests, pushes to `main`, manual dispatch | .NET builds and custom tests, Rust authority sidecar NUnit tests, Python lint and tests, changed-file proprietary-input guard, conditional Windows mod compile, and Windows x86 SimLink build and tests. |
 | `docs-check.yml` | Pull requests and pushes | Public boundary scan, strict link/path checks, checker unit tests, `mkdocs build --strict`, site artifact upload. |
-| `deploy-docs.yml` | Push to `main` that changes a documentation input, or manual dispatch on `main` | Reads the configured Pages URL, builds the site, publishes it through the self-hosted `docs` runner and GitHub Pages, and optionally syncs sanitized public docs to `ObsidianNetwork/SimsOnline-docs` when `PUBLIC_DOCS_DEPLOY_TOKEN` is configured. |
+| `deploy-docs.yml` | Push to `main` that changes a documentation input, or manual dispatch on `main` | Reads the configured Pages URL, builds the site, publishes it through the self-hosted `docs` runner and GitHub Pages, and optionally syncs sanitized public docs to `ObsidianNetwork/Sims3Online-docs` when `PUBLIC_DOCS_DEPLOY_TOKEN` is configured. |
 | `release.yml` | Tags matching `v*` | Builds/tests managed targets, publishes server for Windows/Linux and client for Windows, packages archives with SHA-256 sums, opens a draft release. |
 
 ## Equivalent local checks

@@ -1,6 +1,6 @@
 # Known limitations
 
-SimsOnline is experimental. This page separates implementation from evidence and
+Sims3Online is experimental. This page separates implementation from evidence and
 unsupported behavior. A passing unit test or short scenario should not be generalized
 beyond its stated scope.
 

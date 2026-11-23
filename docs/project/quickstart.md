@@ -22,8 +22,8 @@ Run from a terminal with Git and `dotnet` on your path. Stay in the repository r
 the remaining commands.
 
 ```sh
-git clone https://github.com/ObsidianNetwork/SimsOnline.git
-cd SimsOnline
+git clone https://github.com/ObsidianNetwork/Sims3Online.git
+cd Sims3Online
 dotnet --version
 dotnet build SimsOnline.Client/SimsOnline.Client.csproj
 dotnet build SimsOnline.TestClient/SimsOnline.TestClient.csproj
@@ -32,7 +32,9 @@ dotnet build DedicatedServer.Tests/SimsOnline.DedicatedServer.Tests.csproj
 
 `dotnet --version` should report an 8.0 SDK. Each build should exit successfully. The test
 project builds the dedicated server through its project reference. If an SDK cannot be
-selected, check `dotnet --list-sdks` and the SDK selection in `global.json`.
+selected, check `dotnet --list-sdks` and the SDK selection in `global.json`. (The project is
+branded **Sims3Online**, while solution, project, assembly, and environment identifiers retain
+`SimsOnline*` for compatibility.)
 
 ## 3. Run the first checks
 

@@ -23,10 +23,10 @@ transport. Both public listener paths lack remote authentication and encryption.
 - `byte[]` values: Base64-encoded JSON strings.
 
 The serializer is implemented by
-[`PublicProtocolCodec`](https://github.com/ObsidianNetwork/SimsOnline/blob/main/SimsOnline.Protocol/PublicProtocolCodec.cs).
+[`PublicProtocolCodec`](https://github.com/ObsidianNetwork/Sims3Online/blob/main/SimsOnline.Protocol/PublicProtocolCodec.cs).
 The command and event records are the source of truth for message fields:
-[ClientCommand.cs](https://github.com/ObsidianNetwork/SimsOnline/blob/main/SimsOnline.Protocol/ClientCommand.cs)
-and [ServerEvent.cs](https://github.com/ObsidianNetwork/SimsOnline/blob/main/SimsOnline.Protocol/ServerEvent.cs).
+[ClientCommand.cs](https://github.com/ObsidianNetwork/Sims3Online/blob/main/SimsOnline.Protocol/ClientCommand.cs)
+and [ServerEvent.cs](https://github.com/ObsidianNetwork/Sims3Online/blob/main/SimsOnline.Protocol/ServerEvent.cs).
 
 Example request (synthetic identifiers):
 

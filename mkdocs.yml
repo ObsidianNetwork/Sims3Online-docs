@@ -1,8 +1,8 @@
-site_name: SimsOnline
+site_name: Sims3Online
 site_description: Developer documentation for the Sims 3 multiplayer project
 site_url: !ENV MKDOCS_SITE_URL
-repo_url: https://github.com/ObsidianNetwork/SimsOnline-docs
-repo_name: ObsidianNetwork/SimsOnline-docs
+repo_url: https://github.com/ObsidianNetwork/Sims3Online
+repo_name: ObsidianNetwork/Sims3Online
 edit_uri: edit/main/docs/
 docs_dir: docs
 strict: true

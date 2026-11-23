@@ -1,6 +1,6 @@
 # Project status and evidence
 
-SimsOnline is experimental multiplayer engineering software, not a player-ready release.
+Sims3Online is experimental multiplayer engineering software, not a player-ready release.
 Use the [current status](../status.md) for the maintained capability summary and the
 [compatibility matrix](compatibility-matrix.md) for tested environment/feature combinations.
 This page explains how to describe evidence without turning an implementation detail or

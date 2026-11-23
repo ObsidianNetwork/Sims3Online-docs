@@ -8,7 +8,7 @@ the implementation authority.
 
 Each public message is a UTF-8 JSON object followed by a newline. The serializer uses camel-case
 property names, string enum values, and a `$type` discriminator. See
-[network protocol](protocol.md) for message categories and [the protocol source](https://github.com/ObsidianNetwork/SimsOnline/blob/main/SimsOnline.Protocol/ClientCommand.cs)
+[network protocol](protocol.md) for message categories and [the protocol source](https://github.com/ObsidianNetwork/Sims3Online/blob/main/SimsOnline.Protocol/ClientCommand.cs)
 for exact fields.
 
 The serializer represents a JSON `byte[]` as a Base64 string. This is used by messages such as
