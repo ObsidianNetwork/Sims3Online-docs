@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://obsidiannetwork.github.io/Sims3Online-docs/sitemap.xml
