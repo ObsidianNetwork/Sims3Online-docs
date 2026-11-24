@@ -12,6 +12,20 @@ The default operating model uses the host game for shared simulation outcomes. T
 contains explicit client-native lot-authority and reconciliation support; behavior and save
 requirements differ when that mode is enabled.
 
+## Implemented capabilities
+
+- **Host-authoritative session & bridge control:** Server-authoritative session lifecycle,
+  controller-to-game shared-memory bridge, client input forwarding, multi-client join/rejoin
+  history, and client-side lot-authority reconciliation when enabled.
+- **Native sidecar & ring transport:** Cleanroom `SimLink` native sidecar (`v17+` on shared-memory
+  layout `v1`), sequence-list exhaustion guard and finished-driver history-liveness filtering,
+  bounded native ring ownership in the Rust front door accepting compatible `layout v1` builds
+  (`native_version >= 17`) with diagnostic `SACS_RECORDER` pass-through, and automated source +
+  CLR Mono safety checks targeting The Sims 3's `.NET 2.0` script runtime.
+- **World & presentation sync:** Authoritative weather and lunar state capture/replay plus
+  vehicle presentation, occupant binding, and route stream identity handoff, backed by automated
+  controller tests and live multi-client verification scenarios.
+
 ## Limitations
 
 - The game and mod setup is manual and requires the user to provide a compatible, legally
