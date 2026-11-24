@@ -24,6 +24,7 @@ $saveBase = [IO.Path]::GetFileNameWithoutExtension($save)
 $env:SIMSONLINE_CHECKPOINT_SAVE = "$saveBase-checkpoint.sims3"
 $env:SIMSONLINE_WORLD_FROM_SERVER = '1'
 $env:SIMSONLINE_SIMLINK_CLIENT_RING = '1'
+$env:SIMSONLINE_ROUTE_STREAM = '1'
 $publicEndpoint = '127.0.0.1:34019'
 
 dotnet build DedicatedServer/SimsOnline.DedicatedServer.csproj
@@ -34,6 +35,8 @@ pwsh -NoProfile -File SimsOnlineServerHostMod/install-server-host-mod.ps1 -Sims3
 ```
 
 Check each command for success before moving on. Build both managed projects before starting either controller. On Windows, a client build can try to copy the running server's executable through the project reference and fail with `MSB3021` or `MSB3027`. Boot with the binaries and game packages you just built.
+
+Keep the default presentation stream enabled. `SIMSONLINE_ROUTE_STREAM=1` tells the host to send route events so the mirror can replay the walk to a fixture. Set it before starting the host controller for the [starter scenarios](scenario-catalog.md#starter-scenarios).
 
 ### When a loopback port is in use
 
